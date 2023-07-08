@@ -1,15 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: antiquewhite ;
+}
+
+
+ul {
+    list-style: none;
+}
+
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+    grid-gap: 1rem;
+    filter: drop-shadow(0 0 0.4rem grey);
+}
+
+.personal, .progects {
+    padding: 1rem;
+    line-height: 2;
+}
+.skills, .languages {
+    padding: 1rem;
+    line-height: 1;
+}
+
+
+
+.left{
+    background-color: tan;
+    border-radius: 5px;
+}
+
 .left-image{
     position: relative;
     
 }
 
 .ava{
-    max-width: 400px;
+    width: 100%;
   }
 
-.left-image h2{
+.left-image h1{
     position: absolute;
     bottom: 0;
     left: 1rem;
-   
-    }
+   }
+
+   .experience, .education {
+    line-height: 2;
+   }
+
+   .experience ul{
+    margin: 2rem 0;
+   }
+
+   .date{
+    color: forestgreen;
+   }
+   .current{
+    background-color:forestgreen;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 3px;
+    opacity: 70%;
+   }
+
+   .link{
+    text-decoration: none;
+    color: cadetblue;
+   }
+
+   .link1{
+    text-decoration: none;
+    color: brown;
+   }
+
+   .education ul{
+    margin: 2rem 0;
+   }
+
+   .education, .experience, .hobby{
+    background-color: wheat;
+    border-radius: 5px;
+    
+   }
+footer{
+    background-color: rgb(102, 156, 33);
+    padding: 2rem 0;
+    text-align: center;
+    line-height: 1.5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+
+}
+
+.link2{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    height: 50px;
+}
